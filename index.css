@@ -1,0 +1,108 @@
+
+body{
+    font-family: 'Roboto', verdana;
+    background-color:rgba(208, 252, 252, .35);
+}
+.questions {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+}
+
+section.questions .title{
+    text-align: center;
+    color: rgb(200, 100, 50);
+    text-shadow: 1px 1px 1px gray;
+    margin-bottom: 3rem;
+
+}
+section.questions .title h2 {
+    font-family: 'Are You Serious', cursive;
+    font-size: 38px;
+    width: 70%;
+    margin: 0 auto 10px auto;
+}
+
+.questions-center{
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.question{
+    padding: 5px;
+    font-size: 20px;
+    background-color: white;
+    box-shadow:  -4px 4px 15px rgb(206, 205, 205);
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+.question-text p{
+    margin-top: 2px;
+    padding-right: 2px!important;
+}
+.question-text{
+    /* this is to hide */
+    display: none;
+    font-size: 16px;
+    padding: 3px;
+    padding-left: 1.3rem;
+    margin: 5px auto auto 10px;
+    letter-spacing: .6px;
+    border-top: 1px solid black;
+    line-height: 1.6rem;
+    opacity: .7;
+}
+.question-btn span i:hover{
+    transform: rotate(90deg);
+    transition-duration: .75s;
+}
+.question-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.question-title p {
+    display: inline-block;
+    font-size: large;
+    padding: 7px;
+}
+
+.question-btn{
+    background-color: inherit;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.question-btn i {
+    margin-right: 10px;
+}
+.far {
+    color: rgb(200, 100, 50);
+    font-weight: ;
+    font-size: 19px;
+}
+
+.minus-icon {
+    display: none;
+}
+
+.show-text .minus-icon{
+    display: block;
+}
+
+.show-text .plus-icon {
+    display: none;
+}
+
+.show-text .question-text{
+    display: block;
+}
+
+.logo{
+    font-size: 45px;
+    color:rgb(94, 179, 207);
+}
